@@ -119,10 +119,10 @@ def search_and_select_guns(guns):
 
 # Main script
 if __name__ == "__main__":
-    folder_path = "AUTOGUN/"  # Main folder for .dat files
-guns_file = "AUTOGUN/result/guns.txt"  # File containing gun information
-result_path = "AUTOGUN/result/result.txt"  # File to save the results
-output_folder = "AUTOGUN/result/"  # Output folder for modified files
+    folder_path = "AUTOGUN/"
+    guns_file = "AUTOGUN/result/guns.txt"
+    result_path = "AUTOGUN/result/result.txt"
+    output_folder = "AUTOGUN/result/"
 
     guns = load_guns(guns_file)
     if not guns:
